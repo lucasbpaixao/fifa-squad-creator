@@ -1,4 +1,4 @@
-package com.lucasbpaixao.fifasquadcreator.controllers;
+package com.lucasbpaixao.fifasquadcreator.controllers.rest;
 
 import java.util.List;
 
