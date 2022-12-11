@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            
+            "type": "java",
+            "name": "Spring Boot-FifaSquadCreatorApplication<fifa-squad-creator>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.lucasbpaixao.fifasquadcreator.FifaSquadCreatorApplication",
+            "projectName": "fifa-squad-creator",
+            "env": {
+                "DB_DIALECT": "org.hibernate.dialect.PostgreSQL94Dialect",
+                "DB_LINK": "jdbc:postgresql://localhost:5432/fifa_squad_creator",
+                "DB_CLASS_NAME": "org.postgresql.Driver",
+                "DB_USER": "postgres",
+                "DB_PASSWORD": "123456"
+            },
+            "args": ""
+        }
+    ]
+}
